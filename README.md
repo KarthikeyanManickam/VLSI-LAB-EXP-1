@@ -184,4 +184,4 @@ endmodule
 
 
 RESULT:
-
+Thus the simulation and synthesis of Logic Gates,Adders and Subtractor using Xilinx ISE is verified successfully.
