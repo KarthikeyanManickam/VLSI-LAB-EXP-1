@@ -1,12 +1,12 @@
-AIM:
+**AIM:**
 
 To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado 2023.1.
 
-APPARATUS REQUIRED: 
+**APPARATUS REQUIRED:** 
 
 Vivado 2023.1
 
-PROCEDURE:
+**PROCEDURE:**
 
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
@@ -212,6 +212,6 @@ endmodule
 
 
 
-RESULT:
+**RESULT:**
 
 Thus the simulation and synthesis of Logic Gates,Adders and Subtractor using Vivado 2023.1 is verified successfully.
