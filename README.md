@@ -1,3 +1,9 @@
+# EXP.NO:01
+# DATE  :26/02/2024
+
+# SIMULATION AND IMPLEMENTATION OF LOIGIC GATES, ADDERS AND SUBTRACTORS
+
+
 **AIM:**
 
 To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado 2023.1.
