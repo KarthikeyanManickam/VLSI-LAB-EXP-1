@@ -1,8 +1,14 @@
-AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado 2023.1.
+AIM:
 
-APPARATUS REQUIRED: Vivado 2023.1
+To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado 2023.1.
 
-PROCEDURE:1. Open Vivado: Launch Xilinx Vivado software on your computer.
+APPARATUS REQUIRED: 
+
+Vivado 2023.1
+
+PROCEDURE:
+
+1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
 
@@ -23,8 +29,10 @@ Logic Diagram :
 
 Logic Gates:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
-# Code
+
+# CODE
 ```
+
 module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;
 output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
@@ -38,14 +46,15 @@ not(notgate,a);
 endmodule
 ```
 
-# Output
+# OUTPUT
 <img width="838" alt="318182680-4ef0e976-4225-4718-8db0-7f63002f5523" src="https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-1/assets/164841362/671893c0-3f17-4f78-a7de-7dcd11c016bb">
 
 
 Half Adder:-
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
-# Code
+
+# CODE
 ```
 module HalfAdder(a,b,sum,carry);
 
@@ -59,15 +68,17 @@ and (carry,a,b);
 
 endmodule
 ```
-# output
+# OUTPUT
 <img width="809" alt="318185210-bb43a856-8a94-4d17-a1c3-7dd65fca1478" src="https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-1/assets/164841362/3bf4e32e-680a-46f0-92ac-2ccdd182bf07">
 
 
 Full adder:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
-# code
+
+# CODE
 ```
+
  module FA(a,b,cin,sum,cout);
 
 input a,b,cin;
@@ -88,7 +99,7 @@ or g5(cout,w2,w3);
 
 endmodule
 ```
-# output
+# OUTPUT
 <img width="1203" alt="318182750-cdc753f5-8032-4a31-bcfb-fd73a13ebb36" src="https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-1/assets/164841362/03d00b9d-c7dc-4341-92dd-46ac1f066b25">
 
 
@@ -96,7 +107,8 @@ Half Subtractor:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
 
-# code
+# CODE
+
 ```
  module halfsubtractor(a,b,diff,borrow);
 
@@ -110,14 +122,15 @@ and g2(borrow,~a,b);
 
 endmodule
 ```
-# output
+# OUTPUT
 <img width="785" alt="318182799-0bd68dc2-6231-412c-8968-b6f631f35165" src="https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-1/assets/164841362/4fba2152-ff5d-4f96-8679-5f3f03224ce5">
 
 
 Full Subtractor:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
-# code
+
+# CODE
 ```
 module full_sub(a,b,bin,diff,borrow);
 
@@ -139,7 +152,7 @@ and g5(w3,~w1,bin);
 
 endmodule
 ```
-# output
+# OUTPUT
 <img width="1280" alt="318182837-082b3e4f-3ba4-4134-95f3-852696b0058d" src="https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-1/assets/164841362/cf6fdf6a-2a09-4954-ad40-4f387712a9f9">
 
 
@@ -147,7 +160,8 @@ endmodule
 8 Bit Ripple Carry Adder
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
-# code 
+
+# CODE
 ```
  module fa(a,b,c,sum,carry);
 
@@ -191,7 +205,7 @@ fa fa8(a[7],b[7],c7,sum[7],cout);
 
 endmodule
 ```
-# output
+# OUTPUT
 <img width="752" alt="318182885-ec18ae98-0a61-4314-af03-0debe9fd5319" src="https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-1/assets/164841362/3807a057-7d3b-4a1e-83cf-bc61eab17a03">
 
 
@@ -199,4 +213,5 @@ endmodule
 
 
 RESULT:
+
 Thus the simulation and synthesis of Logic Gates,Adders and Subtractor using Vivado 2023.1 is verified successfully.
